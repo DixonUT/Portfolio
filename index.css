@@ -1,0 +1,320 @@
+html {
+    background-color: #f2f5f9;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+.header{
+    width: 98%;
+    margin: 20px 0px 0px 0px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.name{
+    display: flex;
+    width: 100%;
+}
+
+.nightmode {
+    width: 40px;             
+    height: 40px;            
+    border: 2px solid #000; 
+    border-radius: 50%;     
+    display: flex;           
+    align-items: center;     
+    justify-content: center;    
+    margin-top: 10px;
+}
+
+
+#firstName, #lastName{
+    margin-right: 10px;
+}
+
+
+/* personal */
+.container{
+    display: flex;
+}
+.personal{
+    width: 30%;
+    height: 900px;
+    position: relative;
+}
+
+.personal-info{
+    background-color: #fff;
+    height: 80%;
+    border-radius: 20px;
+    position: relative;
+    top: 20%;
+}
+.profile-picture{
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: -15%;
+}
+
+.profile-picture img{
+    width: 45%;
+    height: 200px;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.name-2 h2{
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: -65px;
+    text-align: center;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    color: #B3B2B2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Socials */
+.social-icons{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    margin: auto;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    background-color: #B3B2B2;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+
+
+/*contact*/
+.contact{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 50%;
+    background-color: #F2F5F9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.border {
+    height: 1px;  
+    width: 80%;  
+    background-color: #B3B2B2;  
+    margin: 10px auto;  
+}
+
+.phone, .email, .location {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.phone-icon, .email-icon, .location-icon {
+    margin-right: 10px;
+}
+
+.phone p, .email p, .location p {
+    margin: auto;
+    color: #7f7676;
+    font-family: 'Mooli', sans-serif;
+    font-size: 14px;
+}
+
+#phoneNum, #email, #location {
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.about {
+    width: 70% ;
+    height: 900px;
+    margin-left: 20px;
+}
+
+.about-info{
+    height: 80%;
+    top: 20%;
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.about-info h1{
+    margin: 0;
+}
+
+.skill{
+    width: 65%;
+    border-radius: 12px;
+    height: 200px;
+    background-color: #FFEBD1;
+    margin: auto;
+    margin-top: 25px;
+}
+.skill-2{
+    width: 65%;
+    border-radius: 12px;
+    height: 200px;
+    background-color: #F2F7FC;
+    margin: auto;
+    margin-top: 25px;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0px;                
+    margin-top: 20px;
+}
+
+.skill-text{
+    margin: 15px;
+}
+
+.skill-text h1{
+    font-size: 20px;
+}
+.skill-text p{
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.about{
+    font-family: 'Mooli', sans-serif;
+}
+
+.about-me{
+    width: 80%;
+    margin: auto;
+}
+
+.about-me p{
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.about-me h1{
+padding-top: 25px;
+}
+
+.about-header{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+/* Navigation */
+.navigation{
+    height: 80px;
+    width: 150;
+    background-color: #000;
+}
+
+
+
+
+
+
+/* About info 
+.about-info{
+    height: 80%;
+    top: 20%;
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.about-info h1{
+    margin: 0;
+}
+
+/* About Me 
+.about {
+    width: 70% ;
+    height: 800px;
+    margin-left: 20px;
+}
+
+
+/* Individual boxes in about 
+.box1 {
+    display: inline-block;
+    background-color: red;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: green;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    margin-left: 80px;
+
+
+}
+.box3 {
+    display: inline-block;
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+.box4 {
+    display: inline-block;
+    background-color:purple;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    border-radius: 2%;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+*/
